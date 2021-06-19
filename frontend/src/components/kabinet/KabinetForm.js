@@ -362,7 +362,7 @@ function KabinetForm(props) {
                   buttonText="Browse"
                   id="imageUpload"
                   onChange={handleUpload}
-                  imgExtension={['.jpg', '.gif', '.png']}
+                  imgExtension={['.jpeg'.jpg', '.gif', '.png']}
                   maxFileSize={5242880}
                   singleImage
                   withPreview={false}
